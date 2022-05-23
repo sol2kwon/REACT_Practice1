@@ -1,0 +1,14 @@
+.w3DisplayContainer{position:relative}
+.w3xlarge{font-size:24px!important}
+.w3padding24{padding-top:24px!important;padding-bottom:24px!important}
+
+.w3left{text-align: left; display: inline; margin: auto;}
+.w3right{text-align:right; display: inline; margin: auto;}
+
+.w3white{color:#000!important;background-color:rgb(38, 12, 209)!important}
+.w3rightalign{text-align:right!important}
+.w3button{border:100;display:inline-block;padding:100px 100px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;cursor:pointer;white-space:nowrap}
+.w3displaytopright{position:absolute;right:0;top: 15px;}
+.w3displaytopleft{position:absolute;left:0;top: 16px;}
+
+
