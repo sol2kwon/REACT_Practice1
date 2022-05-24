@@ -19,7 +19,7 @@ const HomeIcon = createSvgIcon(
   'Home',
 );
 
-const basicSettings = {subTitles: ['팀 소개'], urls: ['/board/boardlist']};
+const basicSettings = {subTitles: ['팀 소개','뱃찌관리','업로드'], urls: ['/board/boardlist','/board/badge','/board/upload']};
 
 export function Nav(){
   const [imageInfos, setImageInfos] = useState({imageUrl: 'https://as2.ftcdn.net/v2/jpg/01/85/61/65/1000_F_185616556_uCc1J5d5GNfRH6ErgP1G8x8ORLeG25en.jpg', imageTitle: 'sign'});

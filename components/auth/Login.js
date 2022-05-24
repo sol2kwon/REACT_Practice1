@@ -16,11 +16,11 @@ import Container from '@mui/material/Container';
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © '}
+      {' '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+       
       </Link>{' '}
-      {new Date().getFullYear()}
+    
       {'.'}
     </Typography>
   );
@@ -80,25 +80,69 @@ export function Login ({onSubmit, onChange}){
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              sx={{ mt: 2, mb: 2 }}
             >
-              전송
+              로그인
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
-                  Forgot password?
-                </Link>
+                <h5 variant="body2">
+                  아직 회원이 아닙니까?
+                </h5>
               </Grid>
               <Grid item>
                 <Link href="#" variant="body2">
-                  {"Don't have an account? Sign Up"}
+                  {"회원가입하기"}
                 </Link>
               </Grid>
             </Grid>
+            <Grid container>
+              <Grid item xs>
+                <h5 variant="body2">
+                비밀번호를 잊었습니까?
+                </h5>
+              </Grid>
+              <Grid item>
+                <Link href="#" variant="body2" >
+                  {"비밀번호 찾기"}
+                </Link>
+              </Grid>
+            </Grid>
+            <Button href="/auth/register"
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 6, mb: 0 }}
+            >
+              네이버 계정으로 로그인
+            </Button>
+            <Button href="/auth/register"
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 0.5, mb: 0 }}
+            >
+              카카오 계정으로 로그인
+            </Button>
+            <Button href="/auth/register"
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 0.5, mb: 0 }}
+            >
+              구글 계정으로 로그인
+            </Button>
+            <Button href="/auth/register"
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 0.5, mb: 0 }}
+            >
+              페이스북 계정으로 로그인
+            </Button>
           </Box>
         </Box>
-        <Copyright sx={{ mt: 8, mb: 4 }} />
+        <Copyright sx={{ mt: 7, mb: 4 }} />
       </Container>
     </ThemeProvider>
   );
