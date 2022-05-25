@@ -14,44 +14,54 @@ const HomeIcon = createSvgIcon(
 export function Badge({ onChange, onSubmit}){
 
     return (
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
-<body>
-<div className="w3-container">
-  <h2>Avatar List</h2>
-  <p>You can combine w3-ul and the w3-bar classes to create an avatar list:</p>
-  <ul className="w3-ul w3-card-4">
-    <li className="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" className="w3-bar-item w3-button w3-white w3-xlarge w3-right">+</span>
-      <img src="img_avatar2.png" className="w3-bar-item w3-circle w3-hide-small" style={{width:85}}/>
-      <div className="w3-bar-item">
-        <span className="w3-large">Mike</span><br/>
-        <span>Web Designer</span>
+      <html>
+      <title>W3.CSS</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+      <body>
+      
+      <div class="w3-container" align = "middle">
+        <h2>나의 뱃지 관리</h2>
+        <br/><br/>
+        <button class="w3-button w3-red" >재료 상세히 보기</button>
+        <button class="w3-button w3-teal">히스토리 상세히 보기</button>
+        <table class="w3-table-all w3-centered" >
+          <tr>
+            <th>나의 냉장고</th>
+            <th>이번주는 이만큼이나 모았어요!</th>
+      
+          </tr>
+          <tr>
+            <td>블루베리: 3개</td>
+            <td>5.18일 아침식단으로 블루베리 획득!</td>
+            
+          </tr>
+          <tr >
+            <td>양상추: 4개</td>
+            <td>5.22일 저녁식단으로 브로콜리 획득!</td>
+          
+          </tr>
+          </table>
+          <br/><br/>
+          <button class="w3-button w3-red" align = "center">요리 상세히 보기</button>
+          <button class="w3-button w3-teal" align = "center">식단 상세히 보기</button>
+          <table class="w3-table-all w3-centered" >
+          <tr>
+            <th>나의 요리 컬렉션</th>
+            <th>이번주는 이만큼이나 만들었어요!!</th>
+          </tr>
+          <tr>
+            <td>리코타 치킨 샐러드: 1개</td>
+            <td>5.18일 아침식단으로 미역국 획득!</td>
+          </tr>
+          <tr>
+            <td>증화식 짬뽕: 2개</td>
+            <td>6.22일 저녁식단으로 삼겹살 김치볶음밥 획득!</td>
+          </tr>
+          </table>
       </div>
-    </li>
-
-    <li className="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" className="w3-bar-item w3-button w3-white w3-xlarge w3-right">+</span>
-      <img src="img_avatar5.png" className="w3-bar-item w3-circle w3-hide-small" style={{width:85}}/>
-      <div className="w3-bar-item">
-        <span className="w3-large">Jill</span><br/>
-        <span>Support</span>
-      </div>
-    </li>
-
-    <li className="w3-bar">
-      <span onclick="this.parentElement.style.display='none'" className="w3-bar-item w3-button w3-white w3-xlarge w3-right">+</span>
-      <img src="img_avatar6.png" className="w3-bar-item w3-circle w3-hide-small" style={{width:85}}/>
-      <div className="w3-bar-item">
-        <span className="w3-large">Jane</span><br/>
-        <span>Accountant</span>
-      </div>
-    </li>
-  </ul>
-</div>
-</body>
-</html> )
+      </body>
+      </html>
+ )
 }
             
