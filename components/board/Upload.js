@@ -1,17 +1,26 @@
 import React from 'react'
-import AppBar from '@mui/material/AppBar';
-import Container from '@mui/material/Container';
-import Toolbar from '@mui/material/Toolbar';
 import { createSvgIcon } from '@mui/material/utils';
+import styles from '@/styles/Table.module.css'
 
-const HomeIcon = createSvgIcon(
-    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />,
-    'Home',
-  );
 
-export function Board({ onChange, onSubmit}){
+export function Upload({onClick}){
 
-    return (
-        <>사진올리기</>)
+    return(
+      <div>
+          <table className={styles.table} >
+              <thead>      
+                <td>
+                <button>홈 화면으로</button>
+                <button>공유하기</button>
+                <button>조건설정</button>
+                </td>    
+              </thead>
+              
+              <tbody style={{height:400+"px", textAlign:"center"}}>
+                <td colSpan={3}><button onClick={onClick}>식단이 비어있어요 나만의 식단 추가하기</button></td>       
+              </tbody>
+          </table>
+      </div>
+  )
 }
             

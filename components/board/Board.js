@@ -6,7 +6,7 @@ export function Board({ onChange, onSubmit}){
     return (
         <html>
         <title>W3.CSS</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+       
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
         <body>
         
@@ -16,13 +16,11 @@ export function Board({ onChange, onSubmit}){
         
         <div class="w3-row-padding w3-margin-top">
           <div class="w3-third">
-            <div class="w3-card">
+          
               <img src="https://post-phinf.pstatic.net/MjAxOTAxMzFfMjYg/MDAxNTQ4OTE4NzkyMjU2.l1s9ZFcfvfotAMmISSKnRYz2NFZNTlLsYAN_Yl22DjQg.45z-gKvTMkJ0kuH9iDivwVDXLmwKiqIQNvM7kSzI-H0g.PNG/%EC%95%A0%EC%99%84%EA%B2%AC_%EB%8F%BC%EC%A7%80_2.png?type=w1200" width="500" height="600"/>
               <div class="w3-container">
                <h5> <a href="https://github.com/JeongMyeongHong">홍정명</a></h5>
-                
-                
-
+                     
               </div>
             </div>
           </div>
@@ -37,14 +35,14 @@ export function Board({ onChange, onSubmit}){
           </div>
         
           <div class="w3-third">
-            <div class="w3-card">
+           
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXehicA1upQvNaaKKdTAZL4ZuVK7eihbd2g&usqp=CAU" width="500" height="600"/>
               <div class="w3-container">
               <h5> <a href="https://github.com/sol2kwon">권솔이</a></h5>
               </div>
             </div>
-          </div>
-        </div>
+  
+       
         </body>
         </html>)
 }
