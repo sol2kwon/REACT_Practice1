@@ -24,5 +24,5 @@ const communityPage = ({}) => {
      <Community onChange={onChange} onSubmit={onSubmit}/>);
 };
 const mapStateToProps = state => ({})
-const CommunityPageActions = {}
+const CommunityActions = {}
 export default connect(mapStateToProps,CommunityActions)(communityPage);
