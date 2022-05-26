@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import {connect} from 'react-redux';
-import {Upload} from '@/components';
+import {Community} from '@/components';
 
-const UploadPage = ({}) => {
+const communityPage = ({}) => {
     const [table, setTable] = useState({blah:''})
 
 
@@ -21,8 +21,8 @@ const UploadPage = ({}) => {
     
     }
     return (
-     <Upload onChange={onChange} onSubmit={onSubmit}/>);
+     <Community onChange={onChange} onSubmit={onSubmit}/>);
 };
 const mapStateToProps = state => ({})
-const UploadPageActions = {}
-export default connect(mapStateToProps, UploadPageActions)(UploadPage);
+const CommunityPageActions = {}
+export default connect(mapStateToProps,CommunityActions)(communityPage);
