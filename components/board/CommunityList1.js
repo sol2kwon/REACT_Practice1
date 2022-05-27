@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-export function CommunityList({}){
+export function CommunityList1({}){
 
     return(
 
@@ -26,62 +26,62 @@ export function CommunityList({}){
       
     </tr>
     <tr>
-      <td>1</td>
-      <td>혼밥 식단 추천</td>
+      <td>13</td>
+      <td>집밥 자랑합니다.</td>
       
     </tr>
     <tr>
-      <td>2</td>
+      <td>14</td>
       <td>파티 식단 공유합니다.</td>
       
     </tr>
     <tr>
-      <td>3</td>
+      <td>15</td>
       <td>식단 강추</td>
     </tr>
 
     <tr>
-    <td>4</td>
+    <td>16</td>
     <td>냉장고 속 재료로 초간단 요리하기</td>
     </tr>
 
     <tr>
-    <td>5</td>
-    <td>오늘의 요리</td>
+    <td>17</td>
+    <td>오늘의 요리사는?</td>
    </tr>
 
   <tr>
-    <td>6</td>
+    <td>18</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>7</td>
+    <td>19</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>8</td>
+    <td>20</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>9</td>
+    <td>21</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>10</td>
+    <td>22</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>11</td>
+    <td>23</td>
     <td>오늘의 요리</td>
   </tr>
 
   <tr>
-    <td>12</td>
+    <td>24</td>
     <td>오늘의 요리</td>
   </tr>
     </table>
@@ -106,4 +106,3 @@ export function CommunityList({}){
 
   )
 }
-            
