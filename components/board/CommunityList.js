@@ -12,7 +12,7 @@ export function CommunityList({}){
 <body>
 
 <div class="w3-container" >
-  <h2>게시글 커뮤니티</h2>
+  <h2>게시글 커뮤니티 목록</h2>
   <div class="w3-bar">
   <a href="/"><button class="w3-button w3-teal">홈</button></a>
   <a href="/board/community"><button class="w3-button w3-red w3-button w3-right">게시글 작성</button></a> 
@@ -69,7 +69,33 @@ export function CommunityList({}){
     <td>9</td>
     <td>오늘의 요리</td>
   </tr>
+
+  <tr>
+    <td>10</td>
+    <td>오늘의 요리</td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>오늘의 요리</td>
+  </tr>
+
+  <tr>
+    <td>12</td>
+    <td>오늘의 요리</td>
+  </tr>
     </table>
+  </div>
+
+  <div class="w3-center"><br/><br/>
+  <div class="w3-bar">
+   <a href="#" class="w3-bar-item w3-button">&laquo;</a>
+    <a href="#" class="w3-button">1</a>
+    <a href="#" class="w3-button">2</a>
+    <a href="#" class="w3-button">3</a>
+    <a href="#" class="w3-button">4</a>
+    <a href="#" class="w3-button">&raquo;</a>
+  </div>
   </div>
 
   </body>
